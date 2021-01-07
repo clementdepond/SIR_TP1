@@ -124,6 +124,15 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>3.14.0</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+      </plugin>
     </plugins>
   </reporting>
+
+  <scm>
+    <connection>scm:git:git://github.com/C:\Users\cleme\IdeaProjects\ACO\SIR_TP1</connection>
+    <url>http://IPSERVEUR/svn/monappli-web</url>
+  </scm>
 </project>
